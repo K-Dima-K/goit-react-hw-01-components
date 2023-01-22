@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  width: 100px;
+  height: 100px;
+}
+
+.label {
+  display: block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.percentage {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 700;
+}
